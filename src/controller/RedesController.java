@@ -62,7 +62,7 @@ public class RedesController {
 			String li = buffer.readLine();
 			while (li != null) {
 
-            if (li.contains("M‚dia")) {
+            if (li.contains("dia")) {
             	String [] ms = li.split(",");
             	System.out.println(ms[2]);
             }
